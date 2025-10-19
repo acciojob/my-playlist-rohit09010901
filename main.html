@@ -4,13 +4,52 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		h1, h2{
+			text-align: center;
+		}
+		body{
+			background-color: rgb(204, 204, 204);
+		}
+		.player_one{
+			background-color: rgb(255,255,255);
+		}
+		video,audio{
+			display: block;
+			margin: 50px;
+			border: 2px solid gray;
+			border-radius: 8px;
+		}
+		ul{
+			border: 2px solid gray;
+			background-color: white;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<h1>My Playlist</h1>
+	<ul>
+		<li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank"></a>song 1</li>
+		<li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="blank"></a>song 2</li>
+		<li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank"></a>song 3</li>
+		<li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank"></a>song 4</li>
+		<li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank"></a>song 5</li>
+	</ul>
+	<h2>Now playing...</h2>
+	<div class="player_one">
+		<video controls>
+		<source src="https://www.w3schools.com/tags/movie.mp4">
+	    </video>
+		<h2>MP3 songs</h2>
+		<audio controls>
+			<source src="https://www.pagalworld.com.se/files/download/id/64630">
+		</audio>
+	</div>
+	
 </body>
 
 </html>
